@@ -1,0 +1,25 @@
+$mainColor: #1565c0;
+
+@import './main';
+
+body {
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+header,
+.main {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-color: $mainColor;
+  padding: 1em 0;
+  h2{
+    color: #FFFFFF;
+    font-size: 1em;
+  }
+}
+
+

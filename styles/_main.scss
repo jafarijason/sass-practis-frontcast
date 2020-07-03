@@ -1,0 +1,20 @@
+@mixin formInput($width) {
+  margin: 0.3em;
+  padding: 0.3em;
+  width: $width;
+  border-radius: 15px;
+  border: 1px solid #bbdefb;
+  outline: none;
+}
+
+.main {
+  margin: 1em;
+  input {
+    @include formInput(30%)
+  }
+  button {
+    background-color: $mainColor;
+    color: #ffffff;
+    border: none;
+  }
+}

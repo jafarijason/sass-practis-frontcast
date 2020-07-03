@@ -1,0 +1,40 @@
+.main {
+  margin: 1em;
+}
+
+.main input {
+  margin: 0.3em;
+  padding: 0.3em;
+  width: 30%;
+  border-radius: 15px;
+  border: 1px solid #bbdefb;
+  outline: none;
+}
+
+.main button {
+  background-color: #1565c0;
+  color: #ffffff;
+  border: none;
+}
+
+body {
+  margin: 0 auto;
+  background-color: #fafafa;
+}
+
+header,
+.main {
+  text-align: center;
+}
+
+header {
+  width: 100%;
+  background-color: #1565c0;
+  padding: 1em 0;
+}
+
+header h2 {
+  color: #FFFFFF;
+  font-size: 1em;
+}
+/*# sourceMappingURL=style.css.map */
